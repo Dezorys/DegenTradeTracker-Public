@@ -5,12 +5,16 @@ Public Windows installer and update packages for **Degen Trade Tracker**.
 - **Binaries only** — no source code in this repository.
 - This is **not** a fork of any private source repo.
 - Fresh installs do **not** include a trade journal (clean slate).
-- An **API key** is required at first launch (same license key database used for other Dezorys desktop tools).
+- An **API key** is required at first launch.
+- Use **`DegenTradeTracker-Install.exe`** to choose the install folder (embeds Velopack Setup).
 
 ## Download
 
-See [Releases](https://github.com/Dezorys/DegenTradeTracker-Public/releases) for `DegenTradeTracker-win-Setup.exe`.
+See [Releases](https://github.com/Dezorys/DegenTradeTracker-Public/releases).
+
+- `DegenTradeTracker-Install.exe` — folder picker (recommended)
+- `DegenTradeTracker-win-Setup.exe` — default `%LocalAppData%\DegenTradeTracker` (or `Setup.exe --installto "D:\path"`)
 
 ## Updates
 
-Install via Setup once, then use **Settings → Check for updates** (no GitHub token required).
+Install once, then use **Settings → Check for updates** (no GitHub token required).
